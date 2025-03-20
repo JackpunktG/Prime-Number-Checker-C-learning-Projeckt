@@ -21,7 +21,7 @@ int main ()
 	multip2 = 1;
 		
 		
-		while(multip2 <= (prime / 2)){
+		while(multip2 <= (prime / 2)){		// Nur bis halb einmaleins
 			while(multip1 < prime){
 				result1 = (multip1 * multip2);		// Einmaleins
 				multip1++;
