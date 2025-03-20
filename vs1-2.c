@@ -11,14 +11,14 @@ int result1;
 int main () 
 {
 	printf("Pick your number wisely...");
-    scanf("%d", &prime);	// wo du nummer eingibst, dass du testen möchtest
+    	scanf("%d", &prime);	// wo du nummer eingibst, dass du testen möchtest
 	
 	clock_t start, end;
-	 start = clock();   //  Zeitmessung start
+	start = clock();   //  Zeitmessung start
 		
 		
-		multip1 = 1;
-		multip2 = 1;
+	multip1 = 1;
+	multip2 = 1;
 		
 		
 		while(multip2 <= (prime / 2)){
@@ -39,8 +39,8 @@ int main ()
 		   
 	printf("\nPRIME!!\n");
 	
-    end = clock();  // Zeitmessung ende
+    	end = clock();  // Zeitmessung ende
 	
 	printf("Execution time: %.6f seconds\n", (double)(end - start) / CLOCKS_PER_SEC);  //Zeit Berechnung
-    return 0;
+    	return 0;
  }
