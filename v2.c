@@ -7,7 +7,7 @@
 
 bool is_prime(int prime)
 {
-	int	result1;
+	int result1;
 	int multip1;
 
 
@@ -62,7 +62,7 @@ int main ()
 		}
 		
 		if (prime == 2){	
-		printf("Choose your number wisely...");
+		printf("Choose your number wisely...\n");
 		scanf("%d", &prime);
 		
 		clock_t start, end;
