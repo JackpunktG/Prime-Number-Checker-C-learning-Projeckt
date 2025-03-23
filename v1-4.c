@@ -8,10 +8,8 @@
 bool is_prime(int prime)
 {
 	int multip1;
-	int	result1;
+	int result1;
 
-	
-	
 	multip1 = 2;
 
 		while (multip1 < prime) {	
@@ -45,7 +43,7 @@ int main ()
 		else { 	
 			printf("\nNo Dice... better luck nexttt time ;)\n");
 		}
-		end = clock(); 																	 // Zeitmessung ende
+		end = clock(); 									 // Zeitmessung ende
 		printf("Execution time: %.6f seconds\n", (double)(end - start) / CLOCKS_PER_SEC); //Zeit Berechnung
 	}
     return 0;
