@@ -1,7 +1,7 @@
 ----
 Prime Number Checker
 ------
-V2-2 Improved the efficiency of the Prime checking algorithum, by checking 2 and then only odd numbers from there on out. Execution time to check first 1000000 numbers: 60.795 seconds
+V2-2 Improved the efficiency of the Prime checking algorithum, by checking 2 and then only odd numbers from there on out. Execution time to check first 1000000 numbers: 60.795 sec
 ______
 V2-1 Changed to unsigned long long Variables, to start to check bigger numbers as the code gets more efficient - only checking the Modulo up to, or equal to, the half of the prime. Execution time to check first 1000000 numbers: 111.360 sec
 __________
