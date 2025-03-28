@@ -17,12 +17,9 @@ bool is_prime(unsigned long long int prime)
 	if (prime == 1){							// taking out one... 
 		return false;
 	}
-	
 	if (prime == 2){							//includes two... the weakest prime...
 		return true;
 	}
-
-	
 	if ((prime % 2) == 0) {						//checks 2, and then will only check odd numbers
 		return false;
 	}
